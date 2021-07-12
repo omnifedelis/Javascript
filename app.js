@@ -1,14 +1,27 @@
 
     // Create Dino Constructor
+function Dinosaur(species, weight, height, fact) {
+    this.species: species,
+    this.weight: weight,
+    this.height: height,
+    this.fact: fact
+};
+
 
 
     // Create Dino Objects
-
+let Di
 
     // Create Human Object
-
+function Human(params) {
+    
+};
     // Use IIFE to get human data from form
-
+(function Human(weight, height, fact){
+    this.weight: weight,
+    this.height: height,
+    this.fact: fact
+})();
 
     // Create Dino Compare Method 1
     // NOTE: Weight in JSON file is in lbs, height in inches. 
